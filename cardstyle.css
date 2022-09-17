@@ -1,0 +1,71 @@
+.leftside{
+float:left;	
+
+}
+img{
+	 
+	 border-radius: 8px 0px 0px 8px;
+}
+.rightside{
+	float:right;
+	width:50%;
+}
+.center{
+	/* Center vertically and horizontally */
+  position: absolute;
+  top: 35%;
+  left: 40%;
+margin: -25px 0 0 -25px; /* Apply negative top and left margins to truly center the element */
+padding: 1px;
+background:hsl(0, 0%, 100%);
+border-radius: 8px;
+   
+}
+ 
+body{
+	background-color:hsl(30, 38%, 92%);
+}
+p{
+	font-size: 14px;
+	font-family: Montserrat;
+	font-weight:500;
+	color: hsl(228, 12%, 48%);
+
+}
+h5{
+	font-family:Montserrat;
+	font-weight:500;
+	color: hsl(228, 12%, 48%);
+	font-size: 14px;
+}
+h3{
+
+	font-family:Fraunces;
+	font-weight:700;
+}
+
+.newprice{
+	color:hsl(158, 36%, 37%);
+	font-weight:700;
+	font-family:Fraunces;
+}
+
+.beforeprice{
+	font-size: 10px;
+		font-family: Montserrat;
+	font-weight:500;
+	color: hsl(228, 12%, 48%)
+}
+button{
+	background-color: rgba(30,51,41,1.00);
+	text-align: center;
+	color:hsl(0, 0%, 100%);
+	border: rgba(30,51,41,1.00);
+	font-size: 14px;
+	font-family: Montserrat;
+	font-weight:500;
+	border-radius: 5px;
+	justify-content: center;
+    height:30px;
+    width:120px;
+}
