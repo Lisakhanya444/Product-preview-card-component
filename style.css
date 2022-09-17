@@ -67,7 +67,7 @@ button{
 	border-radius: 5px;
 	justify-content: center;
     height:30px;
-    
+    width:210px;
 }
 
 button:hover {
